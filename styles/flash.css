@@ -6,11 +6,14 @@ body {
   }
   
   .flashcard-container {
-    display: flex;
+    display: grid;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-   
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 20px;
   }
   
   .flashcard {
@@ -51,4 +54,11 @@ body {
   .flashcard.flipped .back {
     transform: rotateY(0);
   }
-  
+
+.flex{
+  display: flex; 
+}
+
+#duo {
+  width: 300px;
+}
