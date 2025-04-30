@@ -25,12 +25,12 @@ body {
 }
 
 section {
-    background: #45e132;
-    margin: 20px auto;
-    padding: 20px;
-    max-width: 500px;
-    border-radius: 8px;
-    align-items: center;
+  background: #45e132;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 8px;
+  align-items: center;
 }
 
 .title {

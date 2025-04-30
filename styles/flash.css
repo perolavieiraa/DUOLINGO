@@ -1,4 +1,3 @@
-
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
@@ -10,7 +9,8 @@ body {
   display: grid;
   justify-content: center;
   gap: 20px;
-  grid-template-columns: repeat(5, 1fr); /* 5 colunas por linha */
+  grid-template-columns: repeat(5, 1fr);
+  /* 5 colunas por linha */
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
