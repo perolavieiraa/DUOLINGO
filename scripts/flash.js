@@ -1,4 +1,3 @@
 function flipCard(card) {
-    card.classList.toggle('flipped');
-  }
-  
+  card.classList.toggle('flipped');
+}
