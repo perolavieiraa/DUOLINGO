@@ -10,7 +10,6 @@ body {
   justify-content: center;
   gap: 20px;
   grid-template-columns: repeat(5, 1fr);
-  /* 5 colunas por linha */
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
@@ -59,4 +58,16 @@ body {
 #duo {
   width: 300px;
   margin-top: 40px;
+}
+
+section {
+  background: #16bb0098;
+  margin: 20px auto ;
+  padding: 20px;
+  max-width: 1000px;
+  border-radius: 15px;
+}
+
+hr {
+  width: 400px;
 }
